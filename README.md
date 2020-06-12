@@ -26,17 +26,14 @@ Reference: [https://docs.python-guide.org/starting/installation/](https://docs.p
 
 #### 2. Clone git repository
 ```bash
-git clone "https://github.com/dhanraj6/socail-media-analytics"
+git clone "https://github.com/ramkishor-hosamane/Reverse-shell-windows.git"
 ```
 
 #### 3. Install requirements in server (hacker machine) 
 ```bash
 pip3 install -r requirements.txt
-sudo apt update
-sudo apt upgrade
-
 ```
-
+Also copy lazagne.exe along with server.py to server machine
 #### 4. Run the server
 ```bash
 python3 server.py
