@@ -16,6 +16,8 @@ Currently this program has several features such as:
 * Ability to browse files
 * Open remote cmd
 * Ability to shutdown/restart/lock pc
+* Steal wifi passwords
+* Steal browser saved passwords
 * And more...
 ### Usage
 
