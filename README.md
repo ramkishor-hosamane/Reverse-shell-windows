@@ -1,8 +1,5 @@
 # Reverse-shell-windows
 Reverse shell for windows operating system
-# Social media analytics
-## Project overview
-Reverse Shell for Windows written in Python3 
 
 ## Features
 Currently this program has several features such as:
