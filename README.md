@@ -42,7 +42,7 @@ python3 server.py
 ```bash
 pyinstaller.exe --onefile --icon=youricon.ico --noconsole  keylogger.py
 ```
-*copy keylogger.exe in dat folder
+* copy keylogger.exe in dat folder
 
 * Generate the malware using 
 ```bash
